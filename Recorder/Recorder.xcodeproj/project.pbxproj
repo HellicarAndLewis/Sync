@@ -34,17 +34,6 @@
 		5D7D7E0015E26C8400B932AB /* simpleColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7CF215E26C8300B932AB /* simpleColor.cpp */; };
 		5D7D7E0115E26C8400B932AB /* simpleFileLister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7CF415E26C8300B932AB /* simpleFileLister.cpp */; };
 		5D7D7E0215E26C8400B932AB /* simpleLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7CF615E26C8300B932AB /* simpleLogger.cpp */; };
-		5D7D7E0315E26C8400B932AB /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D1015E26C8300B932AB /* makefile */; };
-		5D7D7E0415E26C8400B932AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2315E26C8300B932AB /* main.cpp */; };
-		5D7D7E0515E26C8400B932AB /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2415E26C8300B932AB /* testApp.cpp */; };
-		5D7D7E0615E26C8400B932AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2715E26C8300B932AB /* main.cpp */; };
-		5D7D7E0715E26C8400B932AB /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2815E26C8300B932AB /* testApp.cpp */; };
-		5D7D7E0815E26C8400B932AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2B15E26C8300B932AB /* main.cpp */; };
-		5D7D7E0915E26C8400B932AB /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2C15E26C8300B932AB /* testApp.cpp */; };
-		5D7D7E0A15E26C8400B932AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D2F15E26C8300B932AB /* main.cpp */; };
-		5D7D7E0B15E26C8400B932AB /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D3015E26C8300B932AB /* testApp.cpp */; };
-		5D7D7E0C15E26C8400B932AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D3315E26C8300B932AB /* main.cpp */; };
-		5D7D7E0D15E26C8400B932AB /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7D3415E26C8300B932AB /* testApp.cpp */; };
 		5D7D7E0E15E26C8400B932AB /* libnimCodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D7DC715E26C8300B932AB /* libnimCodecs.dylib */; };
 		5D7D7E0F15E26C8400B932AB /* libnimMockNodes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D7DC815E26C8300B932AB /* libnimMockNodes.dylib */; };
 		5D7D7E1015E26C8400B932AB /* libnimRecorder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D7DC915E26C8300B932AB /* libnimRecorder.dylib */; };
@@ -61,7 +50,6 @@
 		5D7D7E1B15E26C8400B932AB /* libXnVNite_1_5_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D7DD415E26C8300B932AB /* libXnVNite_1_5_2.dylib */; };
 		5D7D7E1C15E26C8400B932AB /* ofxOpenNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7DD715E26C8300B932AB /* ofxOpenNI.cpp */; };
 		5D7D7E1D15E26C8400B932AB /* ofxOpenNITypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7DD915E26C8300B932AB /* ofxOpenNITypes.cpp */; };
-		5D7D7E1E15E26C8400B932AB /* openNI.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D7DDF15E26C8300B932AB /* openNI.lib */; };
 		5D7D7E1F15E26C8400B932AB /* videoAndSkeletonCustomDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7DE115E26C8300B932AB /* videoAndSkeletonCustomDrawer.cpp */; };
 		5DB636AA14F66FB100A3D837 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB636A314F66FB100A3D837 /* tinyxml.cpp */; };
 		5DB636AB14F66FB100A3D837 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB636A514F66FB100A3D837 /* tinyxmlerror.cpp */; };
@@ -87,13 +75,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D7D7E2115E26C8400B932AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7D7D1C15E26C8300B932AB /* openNiSample007.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4B69B5B0A3A1756003C02F2;
-			remoteInfo = openNISample007;
-		};
 		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
@@ -186,54 +167,6 @@
 		5D7D7CF515E26C8300B932AB /* simpleFileLister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleFileLister.h; sourceTree = "<group>"; };
 		5D7D7CF615E26C8300B932AB /* simpleLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simpleLogger.cpp; sourceTree = "<group>"; };
 		5D7D7CF715E26C8300B932AB /* simpleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleLogger.h; sourceTree = "<group>"; };
-		5D7D7CF915E26C8300B932AB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		5D7D7D0115E26C8300B932AB /* lbsdata.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.idx; sourceTree = "<group>"; };
-		5D7D7D0215E26C8300B932AB /* lbsdata.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.lbd; sourceTree = "<group>"; };
-		5D7D7D0315E26C8300B932AB /* lbsparam1.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam1.lbd; sourceTree = "<group>"; };
-		5D7D7D0415E26C8300B932AB /* lbsparam2.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam2.lbd; sourceTree = "<group>"; };
-		5D7D7D0515E26C8300B932AB /* FeatureExtraction.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FeatureExtraction.ini; sourceTree = "<group>"; };
-		5D7D7D0615E26C8300B932AB /* GlobalDefaultsKinect.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GlobalDefaultsKinect.ini; sourceTree = "<group>"; };
-		5D7D7D0715E26C8300B932AB /* h.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = h.dat; sourceTree = "<group>"; };
-		5D7D7D0815E26C8300B932AB /* licenses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = licenses.xml; sourceTree = "<group>"; };
-		5D7D7D0915E26C8300B932AB /* modules.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
-		5D7D7D0A15E26C8300B932AB /* Nite.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nite.ini; sourceTree = "<group>"; };
-		5D7D7D0B15E26C8300B932AB /* ofxopenni_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ofxopenni_config.xml; sourceTree = "<group>"; };
-		5D7D7D0C15E26C8300B932AB /* s.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = s.dat; sourceTree = "<group>"; };
-		5D7D7D0D15E26C8300B932AB /* SamplesConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SamplesConfig.xml; sourceTree = "<group>"; };
-		5D7D7D0E15E26C8300B932AB /* SceneServer.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SceneServer.ini; sourceTree = "<group>"; };
-		5D7D7D0F15E26C8300B932AB /* verdana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdana.ttf; sourceTree = "<group>"; };
-		5D7D7D1015E26C8300B932AB /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
-		5D7D7D1115E26C8300B932AB /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		5D7D7D1215E26C8300B932AB /* openNISample007.cbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.cbp; sourceTree = "<group>"; };
-		5D7D7D1315E26C8300B932AB /* openNISample007.depend */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openNISample007.depend; sourceTree = "<group>"; };
-		5D7D7D1415E26C8300B932AB /* openNISample007.layout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.layout; sourceTree = "<group>"; };
-		5D7D7D1515E26C8300B932AB /* openNISample007.sdf */ = {isa = PBXFileReference; lastKnownFileType = file; path = openNISample007.sdf; sourceTree = "<group>"; };
-		5D7D7D1615E26C8300B932AB /* openNISample007.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openNISample007.sln; sourceTree = "<group>"; };
-		5D7D7D1715E26C8300B932AB /* openNISample007.suo */ = {isa = PBXFileReference; lastKnownFileType = file; path = openNISample007.suo; sourceTree = "<group>"; };
-		5D7D7D1815E26C8300B932AB /* openNISample007.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.vcxproj; sourceTree = "<group>"; };
-		5D7D7D1915E26C8300B932AB /* openNISample007.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.vcxproj.filters; sourceTree = "<group>"; };
-		5D7D7D1A15E26C8300B932AB /* openNISample007.vcxproj.user */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.vcxproj.user; sourceTree = "<group>"; };
-		5D7D7D1B15E26C8300B932AB /* openNISample007.workspace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007.workspace; sourceTree = "<group>"; };
-		5D7D7D1C15E26C8300B932AB /* openNiSample007.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = openNiSample007.xcodeproj; sourceTree = "<group>"; };
-		5D7D7D1F15E26C8300B932AB /* openNISample007Linux64.cbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007Linux64.cbp; sourceTree = "<group>"; };
-		5D7D7D2015E26C8300B932AB /* openNISample007Linux64.workspace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openNISample007Linux64.workspace; sourceTree = "<group>"; };
-		5D7D7D2115E26C8300B932AB /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		5D7D7D2315E26C8300B932AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D7D7D2415E26C8300B932AB /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		5D7D7D2515E26C8300B932AB /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		5D7D7D2715E26C8300B932AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D7D7D2815E26C8300B932AB /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		5D7D7D2915E26C8300B932AB /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		5D7D7D2B15E26C8300B932AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D7D7D2C15E26C8300B932AB /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		5D7D7D2D15E26C8300B932AB /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		5D7D7D2F15E26C8300B932AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D7D7D3015E26C8300B932AB /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		5D7D7D3115E26C8300B932AB /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		5D7D7D3315E26C8300B932AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D7D7D3415E26C8300B932AB /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		5D7D7D3515E26C8300B932AB /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		5D7D7D3615E26C8300B932AB /* GPL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPL.txt; sourceTree = "<group>"; };
 		5D7D7D3915E26C8300B932AB /* libusb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libusb.h; sourceTree = "<group>"; };
 		5D7D7D3B15E26C8300B932AB /* XnCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnCommon.h; sourceTree = "<group>"; };
 		5D7D7D3C15E26C8300B932AB /* XnV3DVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnV3DVector.h; sourceTree = "<group>"; };
@@ -362,8 +295,6 @@
 		5D7D7DBE15E26C8300B932AB /* XnUSBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnUSBDevice.h; sourceTree = "<group>"; };
 		5D7D7DBF15E26C8300B932AB /* XnUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnUtils.h; sourceTree = "<group>"; };
 		5D7D7DC015E26C8300B932AB /* XnVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnVersion.h; sourceTree = "<group>"; };
-		5D7D7DC115E26C8300B932AB /* LGPL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LGPL.txt; sourceTree = "<group>"; };
-		5D7D7DC215E26C8300B932AB /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
 		5D7D7DC615E26C8300B932AB /* change_exec_paths.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = change_exec_paths.sh; sourceTree = "<group>"; };
 		5D7D7DC715E26C8300B932AB /* libnimCodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimCodecs.dylib; sourceTree = "<group>"; };
 		5D7D7DC815E26C8300B932AB /* libnimMockNodes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimMockNodes.dylib; sourceTree = "<group>"; };
@@ -385,7 +316,6 @@
 		5D7D7DD915E26C8300B932AB /* ofxOpenNITypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOpenNITypes.cpp; sourceTree = "<group>"; };
 		5D7D7DDA15E26C8300B932AB /* ofxOpenNITypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOpenNITypes.h; sourceTree = "<group>"; };
 		5D7D7DDB15E26C8300B932AB /* ofxOpenNIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOpenNIUtils.h; sourceTree = "<group>"; };
-		5D7D7DDF15E26C8300B932AB /* openNI.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = openNI.lib; sourceTree = "<group>"; };
 		5D7D7DE115E26C8300B932AB /* videoAndSkeletonCustomDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = videoAndSkeletonCustomDrawer.cpp; sourceTree = "<group>"; };
 		5D7D7DE215E26C8300B932AB /* videoAndSkeletonCustomDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoAndSkeletonCustomDrawer.h; sourceTree = "<group>"; };
 		5DB636A114F66FB100A3D837 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
@@ -451,7 +381,6 @@
 				5D7D7E1915E26C8400B932AB /* libXnVFeatures_1_5_2.dylib in Frameworks */,
 				5D7D7E1A15E26C8400B932AB /* libXnVHandGenerator_1_5_2.dylib in Frameworks */,
 				5D7D7E1B15E26C8400B932AB /* libXnVNite_1_5_2.dylib in Frameworks */,
-				5D7D7E1E15E26C8400B932AB /* openNI.lib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,167 +494,12 @@
 		5D7D7CF815E26C8300B932AB /* ofxOpenNI */ = {
 			isa = PBXGroup;
 			children = (
-				5D7D7CF915E26C8300B932AB /* .gitignore */,
-				5D7D7CFA15E26C8300B932AB /* examples */,
-				5D7D7D3615E26C8300B932AB /* GPL.txt */,
 				5D7D7D3715E26C8300B932AB /* include */,
-				5D7D7DC115E26C8300B932AB /* LGPL.txt */,
-				5D7D7DC215E26C8300B932AB /* LICENCE.txt */,
 				5D7D7DC315E26C8300B932AB /* mac */,
 				5D7D7DD515E26C8300B932AB /* README.markdown */,
 				5D7D7DD615E26C8300B932AB /* src */,
-				5D7D7DDC15E26C8300B932AB /* win */,
 			);
 			path = ofxOpenNI;
-			sourceTree = "<group>";
-		};
-		5D7D7CFA15E26C8300B932AB /* examples */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7CFB15E26C8300B932AB /* opeNI-SimpleExamples */,
-			);
-			path = examples;
-			sourceTree = "<group>";
-		};
-		5D7D7CFB15E26C8300B932AB /* opeNI-SimpleExamples */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7CFC15E26C8300B932AB /* bin */,
-				5D7D7D1015E26C8300B932AB /* makefile */,
-				5D7D7D1115E26C8300B932AB /* openFrameworks-Info.plist */,
-				5D7D7D1215E26C8300B932AB /* openNISample007.cbp */,
-				5D7D7D1315E26C8300B932AB /* openNISample007.depend */,
-				5D7D7D1415E26C8300B932AB /* openNISample007.layout */,
-				5D7D7D1515E26C8300B932AB /* openNISample007.sdf */,
-				5D7D7D1615E26C8300B932AB /* openNISample007.sln */,
-				5D7D7D1715E26C8300B932AB /* openNISample007.suo */,
-				5D7D7D1815E26C8300B932AB /* openNISample007.vcxproj */,
-				5D7D7D1915E26C8300B932AB /* openNISample007.vcxproj.filters */,
-				5D7D7D1A15E26C8300B932AB /* openNISample007.vcxproj.user */,
-				5D7D7D1B15E26C8300B932AB /* openNISample007.workspace */,
-				5D7D7D1C15E26C8300B932AB /* openNiSample007.xcodeproj */,
-				5D7D7D1F15E26C8300B932AB /* openNISample007Linux64.cbp */,
-				5D7D7D2015E26C8300B932AB /* openNISample007Linux64.workspace */,
-				5D7D7D2115E26C8300B932AB /* Project.xcconfig */,
-				5D7D7D2215E26C8300B932AB /* src-ImageAndDepth-Simple */,
-				5D7D7D2615E26C8300B932AB /* src-ImageAndDepthMutltDevice-Medium */,
-				5D7D7D2A15E26C8300B932AB /* src-ONIRecording-Simple */,
-				5D7D7D2E15E26C8300B932AB /* src-UserAndCloud-Medium */,
-				5D7D7D3215E26C8300B932AB /* src-UserAndCloud-Simple */,
-			);
-			path = "opeNI-SimpleExamples";
-			sourceTree = "<group>";
-		};
-		5D7D7CFC15E26C8300B932AB /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7CFD15E26C8300B932AB /* data */,
-			);
-			path = bin;
-			sourceTree = "<group>";
-		};
-		5D7D7CFD15E26C8300B932AB /* data */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7CFE15E26C8300B932AB /* openni */,
-				5D7D7D0F15E26C8300B932AB /* verdana.ttf */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		5D7D7CFE15E26C8300B932AB /* openni */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7CFF15E26C8300B932AB /* config */,
-			);
-			path = openni;
-			sourceTree = "<group>";
-		};
-		5D7D7CFF15E26C8300B932AB /* config */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D0015E26C8300B932AB /* Data */,
-				5D7D7D0515E26C8300B932AB /* FeatureExtraction.ini */,
-				5D7D7D0615E26C8300B932AB /* GlobalDefaultsKinect.ini */,
-				5D7D7D0715E26C8300B932AB /* h.dat */,
-				5D7D7D0815E26C8300B932AB /* licenses.xml */,
-				5D7D7D0915E26C8300B932AB /* modules.xml */,
-				5D7D7D0A15E26C8300B932AB /* Nite.ini */,
-				5D7D7D0B15E26C8300B932AB /* ofxopenni_config.xml */,
-				5D7D7D0C15E26C8300B932AB /* s.dat */,
-				5D7D7D0D15E26C8300B932AB /* SamplesConfig.xml */,
-				5D7D7D0E15E26C8300B932AB /* SceneServer.ini */,
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
-		5D7D7D0015E26C8300B932AB /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D0115E26C8300B932AB /* lbsdata.idx */,
-				5D7D7D0215E26C8300B932AB /* lbsdata.lbd */,
-				5D7D7D0315E26C8300B932AB /* lbsparam1.lbd */,
-				5D7D7D0415E26C8300B932AB /* lbsparam2.lbd */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		5D7D7D1D15E26C8300B932AB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7E2215E26C8400B932AB /* openNISample007Debug.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D7D7D2215E26C8300B932AB /* src-ImageAndDepth-Simple */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D2315E26C8300B932AB /* main.cpp */,
-				5D7D7D2415E26C8300B932AB /* testApp.cpp */,
-				5D7D7D2515E26C8300B932AB /* testApp.h */,
-			);
-			path = "src-ImageAndDepth-Simple";
-			sourceTree = "<group>";
-		};
-		5D7D7D2615E26C8300B932AB /* src-ImageAndDepthMutltDevice-Medium */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D2715E26C8300B932AB /* main.cpp */,
-				5D7D7D2815E26C8300B932AB /* testApp.cpp */,
-				5D7D7D2915E26C8300B932AB /* testApp.h */,
-			);
-			path = "src-ImageAndDepthMutltDevice-Medium";
-			sourceTree = "<group>";
-		};
-		5D7D7D2A15E26C8300B932AB /* src-ONIRecording-Simple */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D2B15E26C8300B932AB /* main.cpp */,
-				5D7D7D2C15E26C8300B932AB /* testApp.cpp */,
-				5D7D7D2D15E26C8300B932AB /* testApp.h */,
-			);
-			path = "src-ONIRecording-Simple";
-			sourceTree = "<group>";
-		};
-		5D7D7D2E15E26C8300B932AB /* src-UserAndCloud-Medium */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D2F15E26C8300B932AB /* main.cpp */,
-				5D7D7D3015E26C8300B932AB /* testApp.cpp */,
-				5D7D7D3115E26C8300B932AB /* testApp.h */,
-			);
-			path = "src-UserAndCloud-Medium";
-			sourceTree = "<group>";
-		};
-		5D7D7D3215E26C8300B932AB /* src-UserAndCloud-Simple */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7D3315E26C8300B932AB /* main.cpp */,
-				5D7D7D3415E26C8300B932AB /* testApp.cpp */,
-				5D7D7D3515E26C8300B932AB /* testApp.h */,
-			);
-			path = "src-UserAndCloud-Simple";
 			sourceTree = "<group>";
 		};
 		5D7D7D3715E26C8300B932AB /* include */ = {
@@ -985,30 +759,6 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		5D7D7DDC15E26C8300B932AB /* win */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7DDD15E26C8300B932AB /* copy_to_data_openni_path */,
-			);
-			path = win;
-			sourceTree = "<group>";
-		};
-		5D7D7DDD15E26C8300B932AB /* copy_to_data_openni_path */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7DDE15E26C8300B932AB /* lib */,
-			);
-			path = copy_to_data_openni_path;
-			sourceTree = "<group>";
-		};
-		5D7D7DDE15E26C8300B932AB /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				5D7D7DDF15E26C8300B932AB /* openNI.lib */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		5D7D7DE015E26C8300B932AB /* skeletonFor_ofxControlPanel */ = {
 			isa = PBXGroup;
 			children = (
@@ -1179,10 +929,6 @@
 					ProductGroup = E4328144138ABC890047C5CB /* Products */;
 					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
 				},
-				{
-					ProductGroup = 5D7D7D1D15E26C8300B932AB /* Products */;
-					ProjectRef = 5D7D7D1C15E26C8300B932AB /* openNiSample007.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -1192,13 +938,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5D7D7E2215E26C8400B932AB /* openNISample007Debug.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = openNISample007Debug.app;
-			remoteRef = 5D7D7E2115E26C8400B932AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1262,17 +1001,6 @@
 				5D7D7E0015E26C8400B932AB /* simpleColor.cpp in Sources */,
 				5D7D7E0115E26C8400B932AB /* simpleFileLister.cpp in Sources */,
 				5D7D7E0215E26C8400B932AB /* simpleLogger.cpp in Sources */,
-				5D7D7E0315E26C8400B932AB /* makefile in Sources */,
-				5D7D7E0415E26C8400B932AB /* main.cpp in Sources */,
-				5D7D7E0515E26C8400B932AB /* testApp.cpp in Sources */,
-				5D7D7E0615E26C8400B932AB /* main.cpp in Sources */,
-				5D7D7E0715E26C8400B932AB /* testApp.cpp in Sources */,
-				5D7D7E0815E26C8400B932AB /* main.cpp in Sources */,
-				5D7D7E0915E26C8400B932AB /* testApp.cpp in Sources */,
-				5D7D7E0A15E26C8400B932AB /* main.cpp in Sources */,
-				5D7D7E0B15E26C8400B932AB /* testApp.cpp in Sources */,
-				5D7D7E0C15E26C8400B932AB /* main.cpp in Sources */,
-				5D7D7E0D15E26C8400B932AB /* testApp.cpp in Sources */,
 				5D7D7E1C15E26C8400B932AB /* ofxOpenNI.cpp in Sources */,
 				5D7D7E1D15E26C8400B932AB /* ofxOpenNITypes.cpp in Sources */,
 				5D7D7E1F15E26C8400B932AB /* videoAndSkeletonCustomDrawer.cpp in Sources */,

@@ -36,8 +36,6 @@ class testApp : public ofBaseApp{
     
     void setupGUI();
     
-    bool bRecording;
-    
     ofxControlPanel gui;
     
     float elapsedTime;

@@ -1,36 +1,14 @@
 #include "testApp.h"
 
-class myUser : public ofxOpenNIUser {
-public:
-    void test(){
-        cout << "mmmhhmm" << endl;
-    }
-};
-
 //--------------------------------------------------------------
 void testApp::setup() {
     
     
     ofSetLogLevel(OF_LOG_VERBOSE);
     ofSetFrameRate(30);
-
-//    ofFileDialogResult results = ofSystemLoadDialog();
-//    
-//    openNIPlayer.setupFromONI(results.filePath);
-//    openNIPlayer.setup();
-//    openNIPlayer.addDepthGenerator();
-//    openNIPlayer.addImageGenerator();
-//    openNIPlayer.setRegister(true);
-//    openNIPlayer.setMirror(true);
-//    openNIPlayer.addUserGenerator();
-//    openNIPlayer.setMaxNumUsers(1); //1 for this one....
-    
-    //adding these bits....
     
     // uncomment these if you want to ensure a clean exit from the application!
     openNIPlayer.setSafeThreading(true);
-    
-    //start with the live image from the kinect to initialise the gui live image preview elements
     
     theOpenNI = &openNIPlayer;
     
@@ -45,10 +23,6 @@ void testApp::setup() {
     hipChart.maxPosition = ofVec2f(700.f,500.f);
     shoulderChart.maxPosition = ofVec2f(700.f,500.f);
     handsChart.maxPosition = ofVec2f(700.f,500.f);
-    
-    bRecording = false; // start not recording...
-    
-//    openNIPlayer.startPlayer(results.filePath);
 }
 
 //--------------------------------------------------------------
@@ -57,19 +31,6 @@ void testApp::update(){
     elapsedTime		= ofGetElapsedTimef();
 	appFrameCount	= ofGetFrameNum();	
 	appFrameRate	= ofGetFrameRate();
-    
-//    bool shouldBeLive = gui.getValueB("SHOULD_BE_LIVE");
-//    bool shouldBeRecording = gui.getValueB("SHOULD_BE_RECORDING");
-    
-//    if(shouldBeRecording){
-//        if(!openNIRecorder.isRecording()){
-//            openNIRecorder.startRecording(ofToDataPath("test.oni"));
-//        }
-//    }else{
-//        if(openNIRecorder.isRecording()){
-//            openNIRecorder.stopRecording();
-//        }
-//    }
     
     int numberOfTrackedUsers = 0;
     
@@ -206,18 +167,7 @@ void testApp::draw(){
     
     if(gui.getValueB("HANDS_LINE_EDGE")){
         handsChart.drawToEdgeOfScreen(0,0,windowWidth,windowHeight);
-    }    
-    
-    
-//    ofSetColor(255, 255, 255); // in gui now...
-//    
-//    ofPushMatrix();
-//    
-//    theOpenNI->drawImage(ofGetWidth()-320.f, 0.f, 320.f, 240.f);
-//    
-//    ofPopMatrix();
-    
-    openNIPlayer.drawSkeletons();
+    }
     
     ofSetColor(255, 255, 255);
     
@@ -265,22 +215,7 @@ void testApp::keyPressed(int key){
                     bShowMouse = true;
                 } 
             }
-                break;
-//            case ' ':
-//                if(!openNIRecorder.isRecording()){
-//                    openNIRecorder.startRecording(ofToDataPath("test.oni"));
-//                }else{
-//                    openNIRecorder.stopRecording();
-//                }
-//                break;
-//            case 'p':
-//                openNIPlayer.startPlayer("test.oni");
-//                break;
-                //taking out all the playback bollocks for now...
-//            case '/':
-//                openNIPlayer.setPaused(!openNIPlayer.isPaused());
-//                break;
-            case 'l':
+            case 'l':{
                 ofFileDialogResult results = ofSystemLoadDialog();
                 
                 openNIPlayer.setupFromONI(results.filePath);
@@ -292,23 +227,9 @@ void testApp::keyPressed(int key){
                 openNIPlayer.addUserGenerator();
                 openNIPlayer.setMaxNumUsers(1); //1 for this one....
                 
-                openNIPlayer.startPlayer(results.filePath);
+//                openNIPlayer.startPlayer(results.filePath); // thanks to Jason Van Cleave for spotting that this in fact breaks the player!
                 break;
-//            case '<':
-//            case ',':
-//                openNIPlayer.previousFrame();
-//                break;
-//            case '>':
-//            case '.':
-//                openNIPlayer.nextFrame();
-//                break;
-//            case 'x':
-//                openNIRecorder.stop();
-//                openNIPlayer.stop();
-//                break;
-//            case 't':
-//                openNIRecorder.toggleRegister();
-//                break;
+            }
         }
     }
     
