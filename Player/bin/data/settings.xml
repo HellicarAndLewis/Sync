@@ -1,0 +1,23 @@
+<Sync>
+    <foreground>0, 0, 0, 255</foreground>
+    <background>255, 255, 255, 255</background>
+    <length_of_history>100</length_of_history>
+    <fade_history />
+    <fade_history?>0</fade_history?>
+    <line_scale>1</line_scale>
+    <line_width>1</line_width>
+    <line_alpha>255</line_alpha>
+    <All_points>1</All_points>
+    <Hip_line>0</Hip_line>
+    <Shoulder_line>0</Shoulder_line>
+    <Hand_line>0</Hand_line>
+    <Hip_line_to_edge>0</Hip_line_to_edge>
+    <Shoulder_line_to_edge>0</Shoulder_line_to_edge>
+    <Hand_line_to_edge>0</Hand_line_to_edge>
+    <Vertical_lines>0</Vertical_lines>
+    <Horizontal_lines>0</Horizontal_lines>
+    <Circles>0</Circles>
+    <Ribbon>0</Ribbon>
+    <Draw_video>0</Draw_video>
+    <Draw_depth>0</Draw_depth>
+</Sync>
