@@ -64,14 +64,13 @@ void testApp::update(){
         
         ofxOpenNIUser user = openNIRecorder.getTrackedUser(0); //get the 0th
         
-        int numberOfLimbs = user.getNumLimbs();
         
-        //cout << "Number of limbs is " << numberOfLimbs << endl;
+        int numberOfJoints = user.getNumJoints();
+        //cout << "Number of joints is " << numberOfJoints << endl;
         
-        for(int i = 0; i < numberOfLimbs; i++){
-            ofxOpenNILimb limb = user.limbs[i];
-            ofxOpenNIJoint joint = limb.getEndJoint();
+        for(int i = 0; i < numberOfJoints; i++){
             
+            ofxOpenNIJoint & joint = user.getJoint((Joint)i);
             ofPoint point = joint.getProjectivePosition();
             
             ofVec2f newPosition = ofVec2f(point.x, point.y);
